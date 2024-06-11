@@ -1,14 +1,48 @@
 # SummarSci
 
+- Link: https://frontend-dot-summar-sci.uc.r.appspot.com/
+
 - Team Members: Aaron Anderson, Jonathan Lau, Dominic Bell
-_ Date: 06/10/2024
-- Summaery: GPT 3.5 API Web Application Scientifc Article Summarizer
+- Date: 06/10/2024
+- OSU Senior Capstone Project
+- Summary: GPT 3.5 API Web Application Scientifc Article Summarizer
 
 # Introduction
 
 Since the inauguration of GPT AI technologies in November of 2022, a great deal of focus and attention has been placed on how to best utilize the AI and how it might benefit not only technological users but also software development. The general web application interface for GPT has been strongly supported for everyday use, but our project at its core strives to research and understand how we might be able to utilize GPT for a specific application, when accessing GPT through its API. Through the course of this project, our team aimed to not only familiarize ourselves with how to use GPT API but also better understand how to fine-tune the AI for better utilization and potential application. 
 
 The goal of our software was to build a web application that uses GPT 3.5 to accurately summarize a user-uploaded scientific publication. Our team did construct a fine-tuned GPT 3.5 model with scientific publication training datasets, however due to the reduced cost and effective output when utilizing prompt-engineering, our team decided to use the standard GPT 3.5 model. We have named our software SummarSci, a portmanteau of Summarize and Science. The application provides an accurate and detailed summary of a user-uploaded scientific publication.
+
+# Installations and Instructions
+
+You can navigate to the link above to utilize the deployed application. 
+
+## Local Application Testing
+
+Deploy the frontend and backend separately on your local machine. 
+
+1. Clone the summar-sci repository in the “Github Repository” link above, and open it in the IDE of your choosing. 
+2. Navigate to the “backend” directory. 
+3. You will have to utilize your own GOOGLE_CLOUD_AUTHENTICATION_CREDNETIALS and OPENAI_API_KEY for local testing. Declare these env_variables in your backend terminal.
+4. Enter the “backend” directory.
+5. Preferably in a virtual environment: (Enter the following code to launch a virtual environment)
+```
+python3 -m venv env
+source env/bin/activate
+```
+6. Install the requirements. Enter the following code in the terminal that is situated in the backend. 
+```pip install -r requirements.txt```
+7. Launch the backend.
+```python3 app.py```
+8. Navigate to the frontend directory. 
+9. The frontend code currently has the deployed application url to access the backend. You have to change it to “http://127.0.0.1:{PORT}/summarize” in the “HomePage.js” code.
+10. Run the following commands to install the frontend dependencies and launch the frontend.
+```
+npm install
+npm start
+```
+11. Test the application on your local device. 
+
 
 # User Perspective
 
