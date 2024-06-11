@@ -1,8 +1,8 @@
 # SummarSci
 
-Name: Aaron Anderson, Jonathan Lau, Dominic Bell
-Date: 06/10/2024
-Summaery: GPT 3.5 API Web Application
+- Team Members: Aaron Anderson, Jonathan Lau, Dominic Bell
+_ Date: 06/10/2024
+- Summaery: GPT 3.5 API Web Application Scientifc Article Summarizer
 
 # Introduction
 
